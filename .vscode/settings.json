@@ -1,0 +1,12 @@
+{
+  // "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.watcherExclude": {
+    "**/.cache/**": true,
+    "**/.git/**": true,
+    "**/node_modules/**": true
+  }
+}
