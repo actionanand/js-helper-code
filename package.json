@@ -1,0 +1,25 @@
+{
+  "name": "js-helper-code",
+  "private": false,
+  "description": "This repo has the 'js code snippets'. You can see the output at console.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Anand Raja"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  },
+  "engines": {
+    "node": "^14.20.0 || ^16.13.0 || ^18.10.0",
+    "npm": "^6.11.0 || ^7.5.6 || >=8.0.0",
+    "yarn": ">= 1.13.0"
+  }
+}
