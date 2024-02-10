@@ -7,7 +7,11 @@ export const objChainIntoArray = () => {
 
   const temp: ProcessedList[] = [];
 
-  const arrayVal: [string, SubscriptionList][] = Object.entries(pref).filter(val => {
+  type subObj = Record<'dual' | 'high_priority' | 'low_priority', SubscriptionList>;
+
+  // { [key: string]: SubscriptionList }
+
+  const arrayVal: [string, subObj][] = Object.entries(pref).filter(val => {
     return val[0] === 'daily' || val[0] === 'special';
   });
 
